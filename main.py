@@ -22,15 +22,6 @@ try:
 except ImportError:
     psutil = None
 
-try:
-    from io import BytesIO  # noqa
-
-    from PIL import Image, ImageTk  # noqa
-
-    PIL_AVAILABLE = True
-except ImportError:
-    PIL_AVAILABLE = False
-
 
 def get_lcu_credentials():
     """从运行中的 LOL 客户端进程命令行读取端口和 token。"""
