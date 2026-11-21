@@ -1,0 +1,1 @@
+uv run pyinstaller --onefile --windowed --clean --noconfirm --name LOL全随机全英雄成就查看器 main.py
